@@ -1,21 +1,26 @@
-MIT License
+ViraiGame Custom License
 
-Copyright (c) 2026 TheEsmaeil1
+Copyright (c) 2025 Esmaeil (theesmaeil1)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license applies to all code, documentation, and educational materials provided in the repository "bale-robot-course" and its associated resources (videos, website content, etc.).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Permitted Uses
+   - You may use, copy, modify, and distribute the code for personal, educational, and non-commercial purposes.
+   - You may use the code to build your own robots on the Bale messenger for personal or internal use.
+   - You must retain this license text and all copyright notices in any copy or derivative work.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Prohibited Uses
+   - You may not sell, sublicense, or redistribute the code or any modified version as a standalone commercial product without explicit written permission from the copyright holder.
+   - You may not remove or alter this license or any trademark, logo, or attribution from the original materials.
+   - You may not use the content to teach a paid course without prior written consent.
+
+3. Commercial Use
+   - If you wish to use any part of this repository for commercial purposes (e.g., integrating into a paid software, offering paid consulting based directly on the code), you must contact the copyright holder at viraigame.ir to obtain a commercial license.
+
+4. Disclaimer
+   - This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability arising from the use of the software.
+
+5. Acknowledgment
+   - Any derivative work or public use of the code must give appropriate credit to the original author (theesmaeil1) and include a link to the original repository: https://github.com/theesmaeil1/bale-robot-course
+
+For inquiries or requests regarding commercial licensing, please visit https://viraigame.ir
