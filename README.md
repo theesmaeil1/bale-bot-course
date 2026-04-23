@@ -1,103 +1,111 @@
+
+markdown
 <div dir="rtl" align="right">
 
-# دوره رایگان ساخت ربات در پیام‌رسان بله با پایتون
+# 🤖 دوره رایگان ساخت ربات بله با پایتون  
+### از صفر تا صد به همراه کد و ویدیو
 
 <div align="center">
-  
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)
-![GitHub stars](https://img.shields.io/github/stars/theesmaeil1/bale-bot-course?style=flat-square)
-![License](https://img.shields.io/badge/License-ViraiGame%20Custom-blueviolet?style=flat-square)
-![Aparat](https://img.shields.io/badge/Aparat-Playlist-red?style=flat-square&logo=aparat)
-![Website](https://img.shields.io/badge/Website-viraigame.ir-orange?style=flat-square)
+
+[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![GitHub Repo Stars](https://img.shields.io/github/stars/theesmaeil1/bale-bot-course?style=flat-square&logo=github&color=yellow)](https://github.com/theesmaeil1/bale-bot-course)
+[![License](https://img.shields.io/badge/License-ViraiGame%20Custom-blueviolet?style=flat-square)](./LICENSE)
+[![Aparat Playlist](https://img.shields.io/badge/Aparat-پلی‌لیست-red?style=flat-square&logo=aparat)](https://www.aparat.com/playlist/25173730)
+[![Website](https://img.shields.io/badge/Website-viraigame.ir-orange?style=flat-square&logo=google-chrome)](https://viraigame.ir)
+[![Releases](https://img.shields.io/badge/Releases-دانلود%20فایل‌ها-brightgreen?style=flat-square&logo=github)](https://github.com/theesmaeil1/bale-bot-course/releases)
 
 </div>
 
 ---
 
-## درباره دوره
+## 📌 درباره دوره
 
-این یک **دوره مقدماتی تا پیشرفته و کاملاً رایگان** برای آموزش ساخت ربات در پیام‌رسان بله با زبان پایتون است.  
-کدهای کامل هر جلسه به همراه ویدیوهای آموزشی در دسترس شماست.
+این مخزن حاوی **کدهای کامل و ویدیوهای آموزشی یک دوره جامع و کاملاً رایگان** برای ساخت ربات در پیام‌رسان بله با استفاده از زبان برنامه‌نویسی پایتون است.  
+هدف این دوره ارائه دانشی عملی از سطح مقدماتی تا پیشرفته به شکلی پروژه‌محور می‌باشد.
 
-**منابع دوره:**
+**چرا این دوره؟**
 
-- 📺 **ویدیوهای آموزشی** در [پلی‌لیست اختصاصی آپارات](https://www.aparat.com/playlist/25173730) و [وبسایت viraigame.ir](https://viraigame.ir)
-- 💻 **کدهای پروژه هر قسمت** در همین مخزن گیت‌هاب (`theesmaeil1/bale-robot-course`)
-- 📝 **راهنمای گام‌به‌گام** در ویدیوها و توضیحات هر فایل
+- ✅ **کاملاً رایگان** بدون نیاز به ثبت‌نام خاص  
+- ✅ **پروژه‌محور و عملی** با کدهای هر جلسه در دسترس  
+- ✅ **آموزش گام‌به‌گام** از نصب ابزارها تا قابلیت‌های پیچیده ربات  
 
----
+**منابع آموزشی:**
 
-## ساختار و نام‌گذاری فایل‌ها
-
-برای دسترسی سریع به کدهای هر قسمت، از الگوی زیر استفاده شده است:
-
-
-**پلی لیست:**
-
-| قسمت | موضوع | نام فایل |
-| :---: | --- | --- |
-| ۱ | معرفی و راه‌اندازی | `ep01_intro_setup.py` |
-
-> اگر یک قسمت چندین فایل داشت، در پوشه‌ای به نام `epXX_title/` قرار می‌گیرد و فایل اصلی `main.py` نام دارد.
+- 📺 **ویدیوهای جلسات**: در [پلی‌لیست اختصاصی آپارات](https://www.aparat.com/playlist/25173730) و [وبسایت ViraiGame](https://viraigame.ir)  
+- 💻 **کد منبع**: در همین مخزن (`theesmaeil1/bale-bot-course`)  
+- 📦 **دانلود یکجای هر قسمت**: تمامی فایل‌ها، پروژه‌های آماده و منابع تکمیلی در بخش **[Releases](https://github.com/theesmaeil1/bale-bot-course/releases)** قرار می‌گیرند. پس از انتشار هر ویدیو، بسته کامل آن قسمت را می‌توانید از همان صفحه دریافت کنید.
 
 ---
 
-## شروع سریع (Quick Start)
+## 🧩 پیش‌نیازها و نصب سریع
 
-### پیش‌نیازها
+### ✔️ آنچه نیاز دارید:
 
-- پایتون نسخه ۳.۸ یا بالاتر
-- کتابخانه رسمی بله (در ویدیو اول نحوه نصب آموزش داده می‌شود)
-- یک حساب کاربری در پیام‌رسان بله برای ساخت و تست ربات
+| پیش‌نیاز | توضیح |
+| :--- | :--- |
+| 🐍 **Python 3.8+** | [دانلود از python.org](https://python.org) |
+| 🤖 **کتابخانه رسمی بله** | نصب با `pip` (در قسمت اول کامل توضیح داده شده) |
+| 📱 **حساب بله** | برای دریافت توکن و تست ربات |
 
-### نصب و اجرا
+### ⚡ راه‌اندازی در چند خط:
 
+
+# 1. کلون کردن مخزن
 ```bash
 git clone https://github.com/theesmaeil1/bale-bot-course.git
-cd bale-bot-course
-pip install -r requirements.txt   # در صورت وجود
-python ep01_intro_setup.py
 ```
-تمام جزئیات دریافت توکن ربات و تنظیم محیط در قسمت اول آموزش توضیح داده شده است.
 
-فهرست کامل قسمت‌ها (به‌روزرسانی پیوسته)
-قسمت	عنوان	فایل پروژه	لینک ویدیو
-۱	معرفی، نصب ابزارها و ساخت اولین ربات	ep01_intro_setup.py	مشاهده
-۲	مدیریت پیام‌های متنی و دستورات ساده	ep02_text_commands.py	مشاهده
-۳	دریافت و ارسال پیام (پیشرفته)	ep03_send_recv_msg.py	مشاهده
-۴	ساخت کیبوردهای شیشه‌ای و دکمه‌دار	ep04_keyboards.py	مشاهده
-۵	ارسال فایل، عکس و ویدیو	ep05_send_media.py	مشاهده
-...	قسمت‌های بعدی به مرور اضافه می‌شوند	...	...
-لینک مستقیم پلی‌لیست آپارات: https://www.aparat.com/playlist/25173730
+نکته مهم: دریافت توکن ربات و تنظیمات اولیه به تفصیل در قسمت 2 آموزش داده می‌شود.
 
-لینک‌های مفید
-وبسایت اصلی دوره: viraigame.ir
+🎬 فهرست قسمت‌ها و لینک ویدیوها
+شماره	عنوان جلسه	فایل(های) کد	لینک ویدیو
+۱	معرفی دوره و توضیحات اختصاصی در خصوص دوره 
+۲	(در حال آماده‌سازی - به زودی)	...	...
+۳	(در حال آماده‌سازی - به زودی)	...	...
+۴	(در حال آماده‌سازی - به زودی)	...	...
+...	...	...	...
+🔗 لینک مستقیم پلی‌لیست آپارات:
+aparat.com/playlist/25173730
 
-کانال آپارات استاد: aparat.com/theesmaeil1
+📦 دانلود ریسورس‌های هر قسمت
+تمامی کدها، فایل‌های پروژه، تصاویر و فایل‌های مورد نیاز برای تمرین و اجرای ربات، پس از انتشار هر ویدیو در بخش Releases گیت‌هاب قرار داده می‌شوند.
 
-مخزن گیت‌هاب: github.com/theesmaeil1/bale-bot-course
+👉 مشاهده و دانلود از صفحه Releases
 
-مشارکت در بهبود
-اگر مشکل یا پیشنهادی دارید:
+فایل Source code (zip) حاوی کدهای دقیق همان جلسه است.
 
-مخزن را فورک کنید.
+هر Release با برچسب شماره قسمت (مثلاً v1.0-ep01) منتشر می‌شود.
 
-یک برنچ جدید ایجاد کنید (git checkout -b improve-something).
+🌐 لینک‌های مفید
+📢 وبسایت رسمی دوره: viraigame.ir
 
-تغییرات خود را اعمال کرده و کامیت کنید.
+📺 کانال آپارات مدرس: aparat.com/theesmaeil1
 
-یک پول ریکوئست ارسال کنید.
+💾 مخزن گیت‌هاب: github.com/theesmaeil1/bale-bot-course
 
-همچنین می‌توانید از بخش Issues برای گزارش باگ یا ایده‌های جدید استفاده کنید.
+🤝 مشارکت و بهبود
+نظرات و پیشنهادات شما مایه پیشرفت دوره است:
 
-مجوز
-این مجموعه تحت مجوز اختصاصی ViraiGame منتشر شده است.
-برای مطالعه کامل شرایط، فایل LICENSE را در ریشه مخزن مشاهده کنید.
+🍴 پروژه را Fork کنید.
+
+🌿 یک Branch جدید بسازید و تغییرات خود را اعمال کنید.
+
+🚀 Pull Request ارسال کنید.
+
+برای گزارش مشکل یا ایده‌های جدید از Issues استفاده کنید.
+
+📜 مجوز
+این دوره تحت مجوز اختصاصی ViraiGame منتشر شده است. برای جزئیات به LICENSE مراجعه کنید.
 
 https://img.shields.io/badge/License-ViraiGame%2520Custom-blueviolet?style=for-the-badge
 
-حمایت و دنبال کردن
-اگر این دوره برای شما مفید بوده است، لطفاً به این مخزن ستاره (⭐) دهید و من را در شبکه‌های اجتماعی دنبال کنید.
-این کار به من انگیزه می‌دهد تا مطالب رایگان بیشتری تولید کنم.
+⭐ حمایت از دوره
+اگر این مطالب برایتان مفید بود:
 
-موفق و پیروز باشید – اسماعیل
+روی دکمه ⭐ Star کلیک کنید
+
+دوره را به دیگران معرفی کنید
+
+هر ستاره و بازخورد کوچک، انرژی ادامه کار رایگان ماست 🌟
+
+<p align="center"> <strong>با آرزوی موفقیت – اسماعیل</strong> </p></div>
